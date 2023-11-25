@@ -1,0 +1,14 @@
+python train.py \
+--dataset 'mirflickr' \
+--times 1 \
+--nc 3000 \
+--n1u 1000 \
+--n2u 1000 \
+--gamma 10 \
+--lamda 10 \
+--a 0.3 \
+--alpha 14 \
+--beta 0.0000001 \
+--p1 0.4 \
+--p2 0.02 \
+--c 0.8
